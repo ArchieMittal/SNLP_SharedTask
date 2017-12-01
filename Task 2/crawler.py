@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf8')
 with open("Datasheet.csv","r") as d:
 	source_tweets = d.readlines()
 
-target_tweets = open("tweets.txt", "w")
+target_tweets = open("dataset.txt", "w")
 
 
 consumer_token = "V4uOcxRwzfBufeD8RZc6uM7N8"
